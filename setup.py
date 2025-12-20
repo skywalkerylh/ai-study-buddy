@@ -1,7 +1,5 @@
 from setuptools import setup,find_packages
 
-
-# setup.py 不是用來「跑專案」的，它是用來讓「別人安裝你的程式」的。
 with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
